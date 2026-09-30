@@ -6,6 +6,36 @@
 
 ## Selected projects
 
+### [DEATHS DEMOLITION](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/deaths-demolition/README.md)
+
+<p align="center">
+  <a href="https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/deaths-demolition/README.md">
+    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/deaths-demolition/images/v6-overview.jpg" width="100%" alt="Deaths Demolition: the V6 palace compound, Cinematic tier" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/deaths-demolition/README.md">
+    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/deaths-demolition/images/mode-topdown.jpg" width="32%" alt="Deaths Demolition top-down camera with a 40-body crowd" />
+    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/deaths-demolition/images/mode-thirdperson.jpg" width="32%" alt="Deaths Demolition third-person camera" />
+    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/deaths-demolition/images/mode-firstperson.jpg" width="32%" alt="Deaths Demolition first-person camera" />
+  </a>
+</p>
+
+A wave-survival zombie shooter in active development, built with Unity and C#. The player holds an old Japanese palace compound against crowds of up to 40 zombies and switches between top-down, third-person and first-person cameras at runtime. The source and builds are private; the project page presents the screenshots and the engineering work.
+
+- Ten classic weapons and two chain-reaction Specials on one zero-allocation projectile simulation (256 live projectiles, fixed 120 Hz step)
+- Four data-driven zombie tiers, five attack styles from a deterministic selector, and a crowd slot board with a NavMesh + separation crowd solver
+- A code-built palace world with after-rain lighting, volumetric sun shafts and three URP quality tiers
+- A branching in-run upgrade tree, a persistent meta path, and crash-safe saves that commit each finished run exactly once
+- About 281k lines of C# and 1,719 automated tests, produced by an AI multi-agent pipeline I direct, with scripted integration, compile and CI gates
+
+**Stack:** Unity 2022.3 LTS · URP 14 · C# · NUnit · Input System · AI Navigation · Blender pipeline
+
+[Project page](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/deaths-demolition/README.md) · [Screenshots](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/deaths-demolition/README.md#screenshots) · [Architecture](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/deaths-demolition/README.md#architecture) · [Production pipeline](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/deaths-demolition/README.md#production-pipeline)
+
+---
+
 ### [NEBULA](https://github.com/ErdemEmirOzer/Nebula)
 
 <p align="center">
@@ -50,4 +80,4 @@ A native iOS chess prototype with a UIKit board, persistent game state, and comp
 
 ## Engineering focus
 
-`Gameplay architecture` · `Deterministic systems` · `AI and search` · `Persistence` · `Testing` · `Developer tooling`
+`Gameplay architecture` · `Deterministic systems` · `AI and search` · `Real-time rendering` · `Persistence` · `Testing` · `Developer tooling`
