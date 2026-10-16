@@ -36,25 +36,33 @@ A top-down wave-survival zombie shooter built with Unity and C#. The player hold
 
 ---
 
-### [NEBULA](https://github.com/ErdemEmirOzer/Nebula)
+### [NEBULA](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md)
 
 <p align="center">
-  <a href="https://github.com/ErdemEmirOzer/Nebula">
-    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/Nebula/main/docs/brand/nebula-cover.png" width="100%" alt="NEBULA key art" />
+  <a href="https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md">
+    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/nebula/images/hero.jpg" width="100%" alt="NEBULA key art" />
   </a>
 </p>
 
-A private-alpha space exploration, extraction, logistics, and territorial-control game built with Unity and C#. Its portfolio snapshot exposes the engineering work while keeping playable builds and provenance-gated production assets private.
+<p align="center">
+  <a href="https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md">
+    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/nebula/images/gameplay-star.jpg" width="32%" alt="NEBULA: the ship facing its star with the flight HUD" />
+    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/nebula/images/map-universe-diagonal.jpg" width="32%" alt="NEBULA: the whole universe on the strategic map" />
+    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/nebula/images/page-resources.jpg" width="32%" alt="NEBULA: the Resources page of the command menu" />
+  </a>
+</p>
 
-- Deterministic galaxy generation with FNV-1a hashing and reproducible world IDs
-- Full, Warm, and sparse system streaming with remote simulation and floating-origin precision
-- Extraction, processing, structures, fleet logistics, combat, progression, tutorials, and versioned saves
-- Explicit composition root, typed runtime context, lifecycle ownership, and modular domain architecture
-- 491 runtime files and 375 EditMode/PlayMode test files in the documented snapshot
+A single-player space game built with Unity and C#. The player flies one ship by hand across a deterministic universe of four galaxies, scans and drills planets, processes what they yield, builds command posts and defenses, and holds planets against raids, with a support fleet carrying the work further. It is in private alpha; the source is public as a portfolio snapshot, and builds and production assets stay private.
 
-**Stack:** Unity 2022 LTS · C# · NUnit · deterministic simulation · procedural generation
+- A deterministic universe of four galaxies from one seed, revealed through signal → located → visited knowledge, with Full / Warm / 1 Hz sparse streaming and remote simulation of the systems you are not in
+- Scan, drill, process and build: 5 resource families and 5 rarities, structures with real lifecycles and reserved costs, and planetary control that needs a 120-second stabilisation
+- Scouts, Collectors, Engineers and Escorts with Mk tiers, orbital logistics, and shield / armour / hull combat with Laser, Plasma and EM hardpoints
+- Levels 1–100, 12 ship modules in four branches, an 11-chapter tutorial of 176 steps, and three save slots with rotating backups and migrations up to schema v15
+- About 124k lines of runtime and editor C# and 3,857 test declarations behind a four-lane PlayMode gate; the release player cut from 3.47 GiB to 613 MiB
 
-[Source showcase](https://github.com/ErdemEmirOzer/Nebula) · [Architecture](https://github.com/ErdemEmirOzer/Nebula/blob/main/docs/ARCHITECTURE.md) · [Algorithms](https://github.com/ErdemEmirOzer/Nebula/blob/main/docs/ALGORITHMS.md) · [Features](https://github.com/ErdemEmirOzer/Nebula/blob/main/docs/FEATURES.md)
+**Stack:** Unity 2022.3 LTS · C# · built-in render pipeline · NUnit · glTFast · deterministic simulation · procedural generation
+
+[Project page](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md) · [Screenshots](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#screenshots) · [Strategic map](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#strategic-map) · [Architecture](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#architecture) · [Source snapshot](https://github.com/ErdemEmirOzer/Nebula)
 
 ---
 
