@@ -46,7 +46,7 @@ A top-down wave-survival zombie shooter built with Unity and C#. The player hold
 
 <p align="center">
   <a href="https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md">
-    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/nebula/images/gameplay-star.jpg" width="32%" alt="NEBULA: the ship facing its star with the flight HUD" />
+    <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/nebula/images/gameplay-blackhole-aetheria.jpg" width="32%" alt="NEBULA: the ship at a galaxy's black hole with the flight HUD" />
     <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/nebula/images/map-universe-diagonal.jpg" width="32%" alt="NEBULA: the whole universe on the strategic map" />
     <img src="https://raw.githubusercontent.com/ErdemEmirOzer/ErdemEmirOzer/main/projects/nebula/images/page-resources.jpg" width="32%" alt="NEBULA: the Resources page of the command menu" />
   </a>
@@ -62,7 +62,7 @@ A single-player space game built with Unity and C#. The player flies one ship by
 
 **Stack:** Unity 2022.3 LTS · C# · built-in render pipeline · NUnit · glTFast · deterministic simulation · procedural generation
 
-[Project page](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md) · [Screenshots](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#screenshots) · [Strategic map](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#strategic-map) · [Architecture](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#architecture) · [Source snapshot](https://github.com/ErdemEmirOzer/Nebula)
+[Project page](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md) · [Screenshots](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#screenshots) · [Black holes and other systems](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#beyond-the-home-system) · [Strategic map](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#strategic-map) · [Architecture](https://github.com/ErdemEmirOzer/ErdemEmirOzer/blob/main/projects/nebula/README.md#architecture) · [Source snapshot](https://github.com/ErdemEmirOzer/Nebula)
 
 ---
 

@@ -64,6 +64,10 @@ NEBULA is a single-player space game. You fly one ship by hand across a determin
     <td width="50%"><img src="images/gameplay-star.jpg" alt="The ship facing the star with a metal and an ocean world on their orbits" /><br /><sub>Facing the star: a metal world and an ocean world on their orbits</sub></td>
     <td width="50%"><img src="images/gameplay-system.jpg" alt="The Albion system from the ship" /><br /><sub>The Albion system from the ship: five planets and their orbit trails</sub></td>
   </tr>
+  <tr>
+    <td width="50%"><img src="images/gameplay-blackhole-aetheria.jpg" alt="The ship at the core of the Aetheria galaxy, its black hole ahead, with the flight HUD" /><br /><sub>At the core of Aetheria: the galaxy's black hole ahead, HUD on</sub></td>
+    <td width="50%"><img src="images/gameplay-blackhole-nyxara.jpg" alt="The ship at the core of the Nyxara galaxy, its black hole ahead, with the flight HUD" /><br /><sub>At the core of Nyxara, another galaxy's black hole</sub></td>
+  </tr>
 </table>
 
 ### The world
@@ -81,6 +85,48 @@ NEBULA is a single-player space game. You fly one ship by hand across a determin
   <tr>
     <td width="50%"><img src="images/world-forest.jpg" alt="A forest world" /><br /><sub>A forest world: the Wood resource family</sub></td>
     <td width="50%"><img src="images/world-system.jpg" alt="The whole system low across the orbital plane" /><br /><sub>The whole system, low across the orbital plane</sub></td>
+  </tr>
+</table>
+
+### Beyond the home system
+
+Four galaxies, each with a black hole at its core, and 128 star systems strung along their arms. For these frames the ship was moved through the game's own world model, floating origin and system streaming included, and each place was rendered by the game camera.
+
+<p align="center">
+  <img src="images/deep-galaxies-aetheria-elysia.jpg" width="100%" alt="The Aetheria galaxy from outside, the Elysia galaxy's disc above it, both cores glowing" />
+</p>
+<p align="center"><sub>Aetheria from outside, with Elysia's disc above it; each core is a black hole</sub></p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="images/core-aetheria.jpg" alt="Aetheria's black hole edge-on: event horizon, photon ring and accretion disc" /><br /><sub>Aetheria's core edge-on: event horizon, photon ring and accretion disc</sub></td>
+    <td width="50%"><img src="images/core-elysia.jpg" alt="Elysia's black hole seen from above its accretion disc" /><br /><sub>Elysia's core, from above the disc</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="images/core-nyxara.jpg" alt="Nyxara's black hole edge-on inside the galaxy's dust" /><br /><sub>Nyxara's core, inside the galaxy's dust</sub></td>
+    <td width="50%"><img src="images/core-thalassa.jpg" alt="Thalassa's black hole edge-on" /><br /><sub>Thalassa's core</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="images/deep-core-approach.jpg" alt="The player ship approaching Aetheria's black hole" /><br /><sub>The ship on approach to Aetheria's core</sub></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%"><img src="images/system-red-dwarf-nyxara-core.jpg" alt="A red dwarf system on Nyxara's inner arm, the spiral and its core behind it" /><br /><sub>A red dwarf on Nyxara's inner arm, the galaxy's core behind it</sub></td>
+    <td width="50%"><img src="images/system-red-dwarf-galaxies.jpg" alt="A red dwarf system in Thalassa with neighbouring galaxies beyond" /><br /><sub>A red dwarf in Thalassa, neighbouring galaxies beyond</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="images/system-blue-giant-world.jpg" alt="A blue world of a blue giant system, galaxies edge-on behind it" /><br /><sub>A blue giant's world, galaxies edge-on behind it</sub></td>
+    <td width="50%"><img src="images/system-white-ringed.jpg" alt="A ringed giant in a white star's system" /><br /><sub>A ringed giant around a white star</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="images/system-ringed-crescent.jpg" alt="A ringed giant in crescent against its yellow star" /><br /><sub>A ringed giant in crescent against its yellow star</sub></td>
+    <td width="50%"><img src="images/system-elysia-forest.jpg" alt="A forest world in an Elysia system" /><br /><sub>A forest world in Elysia</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="images/deep-galaxy-from-home.jpg" alt="Looking across Aetheria's arms from above the home system towards the core" /><br /><sub>From above the home arm, across Aetheria to its core</sub></td>
+    <td width="50%"><img src="images/deep-galaxy-nyxara-top.jpg" alt="The Nyxara galaxy from above" /><br /><sub>Nyxara from above</sub></td>
   </tr>
 </table>
 
@@ -104,6 +150,8 @@ NEBULA is a single-player space game. You fly one ship by hand across a determin
 
 ### Command menu
 
+Every page of the in-game command menu, from the same campaign.
+
 <table>
   <tr>
     <td width="50%"><img src="images/page-overview.jpg" alt="Overview page" /><br /><sub>Overview: vitals, level, cargo, fleet and planetary control</sub></td>
@@ -124,6 +172,23 @@ NEBULA is a single-player space game. You fly one ship by hand across a determin
   <tr>
     <td width="50%"><img src="images/page-settings.jpg" alt="Settings page" /><br /><sub>Settings: interface, motion, accessibility and key bindings</sub></td>
     <td width="50%"><img src="images/page-session.jpg" alt="Session page" /><br /><sub>Session: three save slots, restart and exit</sub></td>
+  </tr>
+</table>
+
+Inside the pages: the panels and dialogs those pages open.
+
+<table>
+  <tr>
+    <td width="50%"><img src="images/page-fleet-build.jpg" alt="Fleet page with the vehicle build picker open" /><br /><sub>Fleet: the build picker, four vehicle classes in seven marks, with their costs</sub></td>
+    <td width="50%"><img src="images/page-fleet-logistics.jpg" alt="Fleet page with the logistics centre panel open" /><br /><sub>Fleet: the logistics centre panel, before one is built in this system</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="images/page-resources-bench-add.jpg" alt="Resources page with the add-to-bench quantity dialog" /><br /><sub>Resources: moving Metal from the hold to the processing bench</sub></td>
+    <td width="50%"><img src="images/page-resources-bench-recipes.jpg" alt="Resources page with Metal on the bench and its conversion recipes" /><br /><sub>Resources: the loaded bench and the recipes it unlocks</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="images/page-settings-bindings.jpg" alt="Settings page with the key binding panel open" /><br /><sub>Settings: key binding across nine action groups</sub></td>
+    <td width="50%"><img src="images/page-session-load-confirm.jpg" alt="Session page asking for confirmation before loading a slot" /><br /><sub>Session: loading a slot over unsaved progress asks first</sub></td>
   </tr>
 </table>
 
@@ -152,11 +217,12 @@ NEBULA is a single-player space game. You fly one ship by hand across a determin
     <td width="50%"><img src="images/motion-universe-orbit.gif" alt="Animated: an orbit of the universe on the strategic map" /><br /><sub>An orbit of the universe on the strategic map</sub></td>
   </tr>
   <tr>
-    <td colspan="2"><img src="images/motion-corona.gif" alt="Animated: the star's live corona over the starting position" /><br /><sub>The star's live corona over the starting position</sub></td>
+    <td width="50%"><img src="images/motion-corona.gif" alt="Animated: the star's live corona over the starting position" /><br /><sub>The star's live corona over the starting position</sub></td>
+    <td width="50%"><img src="images/motion-blackhole.gif" alt="Animated: a slow orbit around Aetheria's black hole" /><br /><sub>A slow orbit around Aetheria's core</sub></td>
   </tr>
 </table>
 
-<sub>Gameplay, map, menu and front-end images come from the macOS release player loading a mid-campaign save, built in the Unity Editor through the game's own services. World images and the corona and universe animations are rendered in the Editor through the game and map cameras, with no interface and with orbit guides off.</sub>
+<sub>Gameplay, map, menu and front-end images come from the macOS release player loading a mid-campaign save, built in the Unity Editor through the game's own services. The two black-hole gameplay frames load saves of the same campaign made at those cores. World and deep-space images and the corona, black-hole and universe animations are rendered in the Editor through the game and map cameras, with no interface and with orbit guides off.</sub>
 
 ---
 
